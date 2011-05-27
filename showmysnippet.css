@@ -1,0 +1,29 @@
+ul.codesample {
+	display:		block;
+	padding-left:	35px;
+	font-size:		1em;
+	background:		#fff url(showmysnippet_bg.gif) repeat-y;
+	border:			1px solid #ccc;
+	text-align:		right;
+}
+ul.codesample > li {
+	display:		list-item;
+	width:			auto;
+	list-style:		decimal outside;
+	font-size:		.85em;
+	line-height:	2.2em;
+	padding-left:	10px;
+	border-bottom:	1px solid #eee;
+	text-align:		left;
+}
+
+ul.codesample > li > * em {
+	font-style:	normal;
+}
+ul.codesample > li > * em.elmt {	color:	#00f;	}
+ul.codesample > li > * em.quote {	color:	#f00;	}
+
+span.code {
+	font-style:		italic;
+	color:			#F00;
+}
